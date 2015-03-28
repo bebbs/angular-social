@@ -4,13 +4,13 @@
 module.exports = function(config) {
   config.set({
 
-    basePath: 'http://localhost:8080',
+    basePath: '',
     frameworks: ['jasmine'],
     files: [
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'app/**/*.js',
-      'spec/**/*.js'
+      'spec/unit/**/*.js'
     ],
     exclude: [
     ],
